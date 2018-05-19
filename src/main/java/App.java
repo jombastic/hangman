@@ -7,7 +7,7 @@ public class App {
   public static void main(String[] args) throws IOException {
     Scanner scanner = new Scanner(System.in);
     System.out.println("Welcome to hangman! I will pick a word and you will try to guess it. " +
-    "If you guess it wrong 6 times, that I win, If you can guess it before then, you win. \n");
+            "If you guess it wrong 6 times, that I win, If you can guess it before then, you win. \n");
     boolean playGame = true;
     while (playGame) {
       System.out.println("Let's play!");
